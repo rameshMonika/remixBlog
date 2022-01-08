@@ -35,7 +35,11 @@ export const action = async ({ request, params }) => {
     const body = form.get("body");
     const id=form.get("id")
 
-  
+    const fields={title,body}
+
+    console.log(fields)
+   
+
 
     console.log(title+" "+body+" "+id);
 
